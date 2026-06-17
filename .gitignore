@@ -1,0 +1,190 @@
+# =============================================================================
+# COMET Framework — .gitignore
+# Python + LaTeX project ignore rules
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+sdi-stubs/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mypy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# -----------------------------------------------------------------------------
+# LaTeX
+# -----------------------------------------------------------------------------
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.lb
+*.bbl
+*.blg
+*.fdb_latexmk
+*.run.xml
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.bcf
+
+# Bibliography auxiliary files (if biblatex/biber)
+*.bcf
+*.run.xml
+
+# Glossaries
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.ist
+*.lrg
+*.lol
+
+# Indices
+*.idx
+*.ilg
+*.ind
+*.sty
+
+# latexmk
+*.fdb_latexmk
+*.fls
+*.ptc
+
+# -----------------------------------------------------------------------------
+# OS-generated files
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# -----------------------------------------------------------------------------
+# Editor / IDE files
+# -----------------------------------------------------------------------------
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.orig
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swn
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------------------------------------------------------
+# Miscellaneous
+# -----------------------------------------------------------------------------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Secrets and credentials
+.env
+*.pem
+*.key
+credentials.json
+
+# Drafts and Generated Manuscripts
+paper/comet_paper.docx
+paper/comet_paper.pdf
+paper/jtit_submission/
